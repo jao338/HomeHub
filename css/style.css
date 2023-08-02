@@ -188,7 +188,8 @@ header {
 }
 
 
-.section-icons h2{
+.section-icons h1{
+    font-size: 24pt;
     margin-top: 48px;
     margin-bottom: 32px;
     text-align: center;
@@ -215,9 +216,43 @@ header {
     width: 224px;
 }
 
+.section-icons-icon img{
+    width: 96px;
+    height: 96px;
+}
+
 .section-icons-icon h5{
     text-align: justify;
-    font-size: 10pt;
+    font-size: 12pt;
     color: var(--purple2);
+}
+
+.section-collaborators-collaborator{
+    display: flex;
+}
+
+.section-collaborators h1{
+    margin-top: 64px;
+    margin-bottom: 64px;
+    font-size: 24pt;
+    text-align: center;
+}
+
+.section-collaborator{
+    width: 384px;
+    margin-left: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-collaborator img{
+    margin-bottom: 16px;
+    width: 192px;
+    height: 192px;
+}
+
+.section-collaborator h3{
+    margin-bottom: 16px;
 }
 
