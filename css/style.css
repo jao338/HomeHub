@@ -55,6 +55,7 @@ header {
 
 .container {
     margin: auto;
+    max-width: 80vw;
     width: 80vw;
 }
 
@@ -119,7 +120,6 @@ header {
 }
 
 .section-home-right-content {
-    border: 1px solid black;
     height: 85vh;
     padding: 32px 104px 32px 104px;
     display: flex;
@@ -163,6 +163,7 @@ header {
 .section-home-right-content a:hover{
     background-color: var(--orange2);
 }
+
 .section-home-right-content div{
     display: flex;
     justify-content: end;
@@ -173,3 +174,50 @@ header {
     padding-left: 16px;
     color: black;
 }
+
+.section-video{
+    display: flex;
+    justify-content: center;
+}
+
+.section-video iframe{
+    box-shadow: 0px 5px 5px #858484;
+    border-radius: 20px;
+    width: 640px;
+    height: 360px;
+}
+
+
+.section-icons h2{
+    margin-top: 48px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.section-icons img{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.section-icons-icons{
+    height: 80vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.section-icons-icon{
+    margin-left: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 224px;
+}
+
+.section-icons-icon h5{
+    text-align: justify;
+    font-size: 10pt;
+    color: var(--purple2);
+}
+
