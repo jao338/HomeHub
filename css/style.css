@@ -389,3 +389,44 @@ header {
 .section-about-right-icon:nth-child(3){
     margin-left: 32px;
 }
+
+footer{
+    margin-top: 64px;
+    min-height: 10vh;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--purple2);
+}
+
+.footer-fr{
+    flex: 1;
+    margin-top: 12px;
+}
+
+.footer-fr:nth-child(1){
+    color: var(--blue);
+    display: flex;
+    justify-content: start;
+}
+
+.footer-fr:nth-child(2){
+    color: var(--grey);
+    display: flex;
+    justify-content: center;
+}
+
+.footer-fr:nth-child(3){
+    display: flex;
+    justify-content: end;
+}
+
+.footer-fr img{
+    margin-right: 24px;
+}
+
+
+
+
