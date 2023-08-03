@@ -272,11 +272,12 @@ header {
 
 .section-franchises-card{
     flex: 1;
+    padding-right: 32px;
 }
 
 .section-franchises-left h2{
     font-size: 24pt;
-    margin-bottom: 32px;
+    margin-bottom: 48px;
 }
 
 .section-franchises-card div{
@@ -291,7 +292,7 @@ header {
 .section-franchises-left a{
     font-size: 16pt;
     border-radius: 8px;
-    padding: 16px 64px 16px 64px;
+    padding: 24px 64px 24px 64px;
     text-decoration: none;
     color: white;
     background-color: var(--blue);
@@ -326,4 +327,65 @@ header {
 .section-franchises-right-img:last-child{
     position: relative;
     left: 210px;
+}
+
+.section-about{
+    display: flex;
+    margin-top: 96px;
+}
+
+.section-about-left,
+.section-about-right{
+    flex: 1;
+}
+
+.section-about-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-about-left{
+    padding-right: 128px;
+}
+
+.section-about-right-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-about-right-img img{
+    width: 256px;
+    height: 256px;
+}
+
+.section-about-left h2{
+    font-size: 24pt;
+    margin-bottom: 16px;
+}
+
+.section-about-left img{
+    margin-top: 48px;
+}
+
+.section-about-left img:last-child{
+    margin-left: 48px;
+}
+
+.section-about-right-icons{
+    width: 256px;
+    display: flex;
+    justify-content: end;
+}
+
+.section-about-right-icon{
+    margin-top: 16px;
+    width: 48px;
+    height: 48px;
+}
+
+.section-about-right-icon:nth-child(2),
+.section-about-right-icon:nth-child(3){
+    margin-left: 32px;
 }
