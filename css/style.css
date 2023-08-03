@@ -116,7 +116,7 @@ header {
     margin-left: 70px;
 }
 
-.section-home-left-img{
+.section-home-left-img {
     display: flex;
 }
 
@@ -124,7 +124,7 @@ header {
     margin-top: 64px;
     margin-bottom: 16px;
     display: flex;
-    border: 1px solid black;
+
 }
 
 .section-home-left-img-img::after {
@@ -138,8 +138,8 @@ header {
     left: -208px;
 }
 
-.section-home-left-img-icons{
-    border: 1px solid black;    
+.section-home-left-img-icons {
+    border: 1px solid black;
 }
 
 .section-home-right-content {
@@ -289,13 +289,13 @@ header {
     margin-bottom: 16px;
 }
 
-.section-collaborator-icones{
+.section-collaborator-icones {
     display: flex;
     justify-content: end;
     margin-top: 32px;
 }
 
-.section-collaborator-icones img{
+.section-collaborator-icones img {
     margin-left: 32px;
 }
 
