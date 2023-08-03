@@ -121,13 +121,13 @@ header {
 
 .section-home-left-img {
     display: flex;
-    border: 1px solid black;
 }
 
 .section-home-left-img-img {
+    margin-left: 70px;
+    justify-content: center;
     display: flex;
-    width: 50%;
-    border: 1px solid black;
+    width: 40%;
 }
 
 .section-home-left-img-icons{
@@ -135,16 +135,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid black;
-    width: 50%;
-}
-
-.teste::after{
-    content: '';
-    border: 2px solid white;
-    width: 228px;
-    height: 228px;
-    
+    width: 20%;
 }
 
 .section-home-right-content {
