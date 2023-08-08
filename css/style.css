@@ -66,8 +66,8 @@ header {
 
 .logo {
     margin-left: 70px;
-    width: 64px;
-    height: 64px;
+    width: 256px;
+    height: 160px;
 }
 
 .logo-home {
@@ -111,6 +111,8 @@ header {
 }
 
 .home-logo{
+    width: 192px;
+    height: 120px;
     margin-left: 70px;
 }
 
@@ -127,7 +129,10 @@ header {
     margin-left: 70px;
     justify-content: center;
     display: flex;
-    width: 40%;
+}
+
+.section-home-left-img-img img {
+    border-radius: 50px;
 }
 
 .section-home-left-img-icons{
@@ -241,8 +246,8 @@ header {
 }
 
 .section-icons-icon img {
-    width: 96px;
-    height: 96px;
+    width: 128px;
+    height: 128px;
 }
 
 .section-icons-icon h5 {
