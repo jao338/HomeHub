@@ -202,7 +202,7 @@ header {
 }
 
 .section-video {
-    margin-top: 32px;
+    margin-top: 128px;
     display: flex;
     justify-content: center;
 }
@@ -285,6 +285,15 @@ header {
     border-radius: 32px;
     width: 196px;
     height: 196px;
+}
+
+.section-collaborator img::before{
+    position: relative;
+    left: -32px;
+    content: '';
+    width: 196px;
+    height: 196px;
+    border: 2px solid black;
 }
 
 .section-collaborator h3 {
@@ -384,6 +393,7 @@ header {
     border-radius: 32px;
     width: 180px;
     height: 180px;
+    box-shadow: 2px 4px 6px #767676;
 }
 
 .section-franchises-right-imgs img:nth-child(1),
