@@ -37,9 +37,10 @@ header {
 .menu-right ul {
     display: flex;
     list-style: none;
+    margin-left: 134px;
 }
 
-.menu-right ul li {
+.menu-right ul li{
     margin-left: 24px;
 }
 
@@ -94,16 +95,19 @@ header {
     flex-direction: column;
     background-color: var(--purple1);
     border-radius: 0px 0px 152px 64px;
-    padding-top: 24px;
+    height: 70vh;
 }
+
 
 .section-home-left-content h1 {
     color: white;
     font-size: 24pt;
     margin-top: 32px;
+    width: 700px;
 }
 
 .section-home-left-content h2 {
+    width: 700px;
     font-weight: 400;
     color: white;
     font-size: 12pt;
@@ -133,6 +137,24 @@ header {
 
 .section-home-left-img-img img {
     border-radius: 50px;
+    box-shadow: 2px 4px 10px black;
+}
+
+.section-home-img{
+    position: relative;
+    top: 96px;
+    display: flex;
+}
+
+.section-home-img::after{
+    content: '';
+    width: 461px;
+    height: 369px;
+    border: 2px solid white;
+    border-radius: 50px;
+    position: relative;
+    top: -30px;
+    left: -431px;
 }
 
 .section-home-left-img-icons{
@@ -141,6 +163,9 @@ header {
     justify-content: center;
     flex-direction: column;
     width: 20%;
+    position: relative;
+    left: -400px;
+    top: 96px;
 }
 
 .section-home-right-content {
@@ -218,6 +243,10 @@ header {
     margin-top: 104px;
 }
 
+.section-icons .container{
+    display: flex;
+    justify-content: center;
+}
 .section-icons h1 {
     font-size: 24pt;
     margin-bottom: 32px;
@@ -230,6 +259,7 @@ header {
 }
 
 .section-icons-icons {
+    max-width: 50vw;
     height: 80vh;
     flex-wrap: wrap;
     justify-content: center;
@@ -281,19 +311,30 @@ header {
 }
 
 .section-collaborator img {
-    margin-bottom: 16px;
     border-radius: 32px;
     width: 196px;
     height: 196px;
 }
 
-.section-collaborator img::before{
-    position: relative;
-    left: -32px;
+.section-collaborator-img{
+    height: 220px;
+    width: 450px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.section-collaborator-img::after{
     content: '';
     width: 196px;
     height: 196px;
-    border: 2px solid black;
+    border: 3px solid var(--orange1);
+    border-radius: 32px;
+    position: relative;
+    left: -176px;
+    top: 20px;
+    opacity: 0.7;
 }
 
 .section-collaborator h3 {
@@ -350,7 +391,7 @@ header {
     background-color: var(--orange2);
     width: 50%;
     height: 16px;
-    margin-bottom: 56px;
+    margin-bottom: 96px;
     border-radius: 8px;
 }
 
@@ -370,7 +411,6 @@ header {
 .section-franchises-card h3 {
     margin-bottom: 8px;
 }
-
 
 .section-franchises-right {
     display: flex;
@@ -431,7 +471,7 @@ header {
 .section-about-left {
     padding-right: 128px;
 }
-
+/*
 .section-about-right-img {
     position: relative;
     left: 128px;
@@ -451,7 +491,7 @@ header {
     top: 10px;
     transform: rotate(-15deg);
 }
-
+*/
 .section-about-right-img img {
     border-radius: 32px;
     width: 694px;
