@@ -37,9 +37,10 @@ header {
 .menu-right ul {
     display: flex;
     list-style: none;
+    margin-left: 134px;
 }
 
-.menu-right ul li {
+.menu-right ul li{
     margin-left: 24px;
 }
 
@@ -136,6 +137,7 @@ header {
 
 .section-home-left-img-img img {
     border-radius: 50px;
+    box-shadow: 2px 4px 10px black;
 }
 
 .section-home-img{
@@ -241,6 +243,10 @@ header {
     margin-top: 104px;
 }
 
+.section-icons .container{
+    display: flex;
+    justify-content: center;
+}
 .section-icons h1 {
     font-size: 24pt;
     margin-bottom: 32px;
@@ -253,6 +259,7 @@ header {
 }
 
 .section-icons-icons {
+    max-width: 50vw;
     height: 80vh;
     flex-wrap: wrap;
     justify-content: center;
