@@ -495,8 +495,7 @@ header {
     padding-right: 128px;
 }
 
-.section-about-right-img img {
-    z-index: 1;
+.section-about-right-img img{
     border-radius: 32px;
     width: 694px;
     height: 475px;
@@ -603,7 +602,7 @@ footer .container {
     }
 
     .section-collaborator p{
-        width: 250px;
+        width: 280px;
     }
 
     .section-collaborator {
