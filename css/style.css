@@ -576,3 +576,32 @@ footer .container {
 .footer-fr img {
     margin-right: 24px;
 }
+
+@media (max-width: 1600px) {
+
+    
+    .section-home-left{
+        max-width: 700px;
+    }
+
+    .section-home-left-content h1 {
+        font-size: 16pt;
+        width: 500px;
+    }
+
+    .section-home-left-content h2{
+        width: 500px;
+    }
+
+    .section-icons-icons{
+        max-width: 90vw;
+    }
+
+    .section-collaborator p{
+        width: 250px;
+    }
+
+    .section-collaborator {
+        margin-left: 56px;
+    }
+}
