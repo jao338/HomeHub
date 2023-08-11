@@ -27,6 +27,8 @@ header {
 }
 
 .main {
+    display: flex;
+    flex-direction: column;
     background-color: var(--bg);
 }
 
@@ -40,7 +42,7 @@ header {
     margin-left: 134px;
 }
 
-.menu-right ul li{
+.menu-right ul li {
     margin-left: 24px;
 }
 
@@ -114,7 +116,7 @@ header {
     margin-top: 32px;
 }
 
-.home-logo{
+.home-logo {
     width: 192px;
     height: 120px;
     margin-left: 70px;
@@ -140,13 +142,13 @@ header {
     box-shadow: 2px 4px 10px black;
 }
 
-.section-home-img{
+.section-home-img {
     position: relative;
     top: 96px;
     display: flex;
 }
 
-.section-home-img::after{
+.section-home-img::after {
     content: '';
     width: 461px;
     height: 369px;
@@ -157,7 +159,7 @@ header {
     left: -431px;
 }
 
-.section-home-left-img-icons{
+.section-home-left-img-icons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -243,10 +245,11 @@ header {
     margin-top: 104px;
 }
 
-.section-icons .container{
+.section-icons .container {
     display: flex;
     justify-content: center;
 }
+
 .section-icons h1 {
     font-size: 24pt;
     margin-bottom: 32px;
@@ -316,7 +319,7 @@ header {
     height: 196px;
 }
 
-.section-collaborator-img{
+.section-collaborator-img {
     height: 220px;
     width: 450px;
     border-radius: 32px;
@@ -325,7 +328,7 @@ header {
     margin-bottom: 32px;
 }
 
-.section-collaborator-img::after{
+.section-collaborator-img::after {
     content: '';
     width: 196px;
     height: 196px;
@@ -354,11 +357,11 @@ header {
     transform: rotate(90deg);
 }
 
-.section-collaborator-icones img:nth-child(2){
+.section-collaborator-icones img:nth-child(2) {
     opacity: 0.7;
 }
 
-.section-collaborator-icones img:nth-child(3){
+.section-collaborator-icones img:nth-child(3) {
     opacity: 0.4;
 }
 
@@ -429,7 +432,7 @@ header {
     height: 296px;
 }
 
-.section-franchises-right-imgs img{
+.section-franchises-right-imgs img {
     border-radius: 32px;
     width: 224px;
     height: 224px;
@@ -442,12 +445,12 @@ header {
     left: 80px;
 }
 
-.section-franchises-right-imgs img:nth-child(3){
+.section-franchises-right-imgs img:nth-child(3) {
     position: relative;
     top: -56px;
 }
 
-.section-franchises-right-imgs img:nth-child(1){
+.section-franchises-right-imgs img:nth-child(1) {
     position: relative;
     top: 56px;
 }
@@ -474,7 +477,7 @@ header {
     align-items: center;
 }
 
-.section-about-right-img-border{
+.section-about-right-img-border {
     display: flex;
     width: 694px;
     height: 475px;
@@ -495,7 +498,7 @@ header {
     padding-right: 128px;
 }
 
-.section-about-right-img img{
+.section-about-right-img img {
     border-radius: 32px;
     width: 694px;
     height: 475px;
@@ -527,7 +530,7 @@ header {
     height: 64px;
 }
 
-.section-about-right-icons img{
+.section-about-right-icons img {
     transform: rotate(90deg);
 }
 
@@ -536,11 +539,11 @@ header {
     margin-left: 16px;
 }
 
-.section-about-right-icons img:nth-child(2){
+.section-about-right-icons img:nth-child(2) {
     opacity: 0.7;
 }
 
-.section-about-right-icons img:nth-child(3){
+.section-about-right-icons img:nth-child(3) {
     opacity: 0.5;
 }
 
@@ -583,8 +586,8 @@ footer .container {
 
 @media (max-width: 1600px) {
 
-    
-    .section-home-left{
+
+    .section-home-left {
         max-width: 700px;
     }
 
@@ -593,19 +596,46 @@ footer .container {
         width: 500px;
     }
 
-    .section-home-left-content h2{
+    .section-home-left-content h2 {
         width: 500px;
     }
 
-    .section-icons-icons{
+    .section-icons-icons {
         max-width: 90vw;
     }
 
-    .section-collaborator p{
+    .section-collaborator p {
         width: 280px;
     }
 
     .section-collaborator {
         margin-left: 56px;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .menu-right{
+        display: none;
+    }
+
+    .section-home {
+        flex-direction: column;
+        margin-bottom: 800px;
+    }
+
+    .section-home-left {
+        margin-bottom: 228px;
+    }
+
+    .section-icons-icon{
+        display: none;
+    }
+
+    .section-icons-icon:last-child{
+        display: flex;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
